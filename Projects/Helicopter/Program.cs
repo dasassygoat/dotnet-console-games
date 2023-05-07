@@ -395,7 +395,8 @@ bool CollisionCheck((string String, int Left, int Top) A, (string String, int Le
 		{
 			if (buffer[left, top] != default)
 			{
-				return true;
+				//return true;
+				return false;
 			}
 			buffer[left++, top] = c;
 		}
